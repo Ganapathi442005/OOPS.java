@@ -57,7 +57,7 @@ public class employee{
 class display{
 	public static void main(String[] args)
     {
-		employee e1 = new employee(120,"Akash",12000.5);
+		employee e1 = new employee(120,"Romeo",12000.5);
 		
 		System.out.println("The name is : "+e1.getName());
 		System.out.println("The Id is : "+e1.getId());
