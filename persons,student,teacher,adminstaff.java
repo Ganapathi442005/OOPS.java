@@ -210,14 +210,14 @@ class mainfunction
 {
    public static void main(String[] args) 
     {
-    ArrayList<person> person1=new ArrayList<>();
-       person1.add(new person(7,"deepan",67,"dindigul"));
-       person1.add(new teacher(33,"akash",19,"namakkal","maths",100000.67));
-       person1.add(new adminstaff(1,"nithesh",21,"chennai","ece","hod"));
-       for(person person5:person1)
+    ArrayList<person> people=new ArrayList<>();
+       people.add(new person(7,"deepan",67,"dindigul"));
+       people.add(new teacher(33,"akash",19,"namakkal","maths",100000.67));
+       people.add(new adminstaff(1,"nithesh",21,"chennai","ece","hod"));
+       for(person person1:people)
        {
         System.out.println("=================================================");
-        person5.display();
+        person1.display();
        }
        person p1=new person();
        p1.setId(15);
