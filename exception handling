@@ -1,0 +1,27 @@
+exception handling
+->division by zero exception
+       10/0;
+->indexoutofbound exception
+       int[] arr={1,2,3};
+     System.out.println(arr[6]);
+->null pointer exception
+       String str = null;
+       System.out.println(str.length());
+->number format exception
+       String number = "123abc";
+       int number = Integer.parseInt(str);
+->class exception
+        Object obj = new String("Hello, World!");
+        Integer num = (Integer) obj; 
+->i/o exception
+        FileReader file = new FileReader("nonexistent.txt");
+->outofmemory error
+         int[] largeArray = new int[Integer.MAX_VALUE];
+->stack overflow error
+         recursiveMethod();  
+         public static void recursiveMethod() 
+         {
+        recursiveMethod(); // Infinite recursion
+         }
+-> illegalargumet error
+         Thread.sleep(-100); 
